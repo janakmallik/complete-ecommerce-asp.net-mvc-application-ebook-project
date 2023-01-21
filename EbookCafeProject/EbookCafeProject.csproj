@@ -127,12 +127,15 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BooksController.cs" />
+    <Compile Include="Controllers\HelloWorldController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Data\EbookCafeProjectContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Book.cs" />
     <Compile Include="Models\Class1.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -149,11 +152,24 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\cldr.js" />
+    <Content Include="Scripts\cldr\event.js" />
+    <Content Include="Scripts\cldr\supplemental.js" />
+    <Content Include="Scripts\cldr\unresolved.js" />
+    <Content Include="Scripts\globalize.js" />
+    <Content Include="Scripts\globalize\currency.js" />
+    <Content Include="Scripts\globalize\date.js" />
+    <Content Include="Scripts\globalize\message.js" />
+    <Content Include="Scripts\globalize\number.js" />
+    <Content Include="Scripts\globalize\plural.js" />
+    <Content Include="Scripts\globalize\relative-time.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.globalize.js" />
+    <Content Include="Scripts\jquery.validate.globalize.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
@@ -178,6 +194,35 @@
     <Content Include="Views\Users\Details.cshtml" />
     <Content Include="Views\Users\Edit.cshtml" />
     <Content Include="Views\Users\Index.cshtml" />
+    <Content Include="Views\HelloWorld\Index.cshtml" />
+    <Content Include="Views\HelloWorld\Welcome.cshtml" />
+    <Content Include="Views\Books\Create.cshtml" />
+    <Content Include="Views\Books\Delete.cshtml" />
+    <Content Include="Views\Books\Details.cshtml" />
+    <Content Include="Views\Books\Edit.cshtml" />
+    <Content Include="Views\Books\Index.cshtml" />
+    <Content Include="Views\Books1\Create.cshtml" />
+    <Content Include="Views\Books1\Delete.cshtml" />
+    <Content Include="Views\Books1\Details.cshtml" />
+    <Content Include="Views\Books1\Edit.cshtml" />
+    <Content Include="Views\Books1\Index.cshtml" />
+    <Content Include="Views\BookV2\Create.cshtml" />
+    <Content Include="Views\BookV2\Delete.cshtml" />
+    <Content Include="Views\BookV2\Details.cshtml" />
+    <Content Include="Views\BookV2\Edit.cshtml" />
+    <Content Include="Views\BookV2\Index.cshtml" />
+    <Content Include="Views\Books\Home.cshtml" />
+    <Content Include="Views\Books\Search.cshtml" />
+    <Content Include="Views\UserV3\Create.cshtml" />
+    <Content Include="Views\UserV3\Delete.cshtml" />
+    <Content Include="Views\UserV3\Details.cshtml" />
+    <Content Include="Views\UserV3\Edit.cshtml" />
+    <Content Include="Views\UserV3\Index.cshtml" />
+    <Content Include="Views\newusr4\Create.cshtml" />
+    <Content Include="Views\newusr4\Delete.cshtml" />
+    <Content Include="Views\newusr4\Details.cshtml" />
+    <Content Include="Views\newusr4\Edit.cshtml" />
+    <Content Include="Views\newusr4\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
